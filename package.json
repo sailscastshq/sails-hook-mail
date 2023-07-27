@@ -1,10 +1,12 @@
 {
   "name": "sails-hook-mail",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The simple elegant way to send emails from a Sails application",
   "main": "lib/sails-hook-mail.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "prettier --check .",
+    "lint:fix": "prettier --write .",
+    "prepare": "husky install"
   },
   "keywords": [
     "sails",
@@ -17,12 +19,24 @@
   "bugs": {
     "url": "https://github.com/sailscastshq/sails-hook-mail/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sailscastshq/sails-hook-mail.git"
+  },
+  "homepage": "https://github.com/sailscastshq/sails-hook-mail#readme",
   "license": "MIT",
   "sails": {
     "isHook": true,
     "hookName": "mail"
   },
-  "dependencies": {
-    "@sailshq/lodash": "^3.10.4"
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.7",
+    "@commitlint/config-conventional": "^17.6.7",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "prettier": "3.0.0"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
