@@ -1,6 +1,6 @@
 {
   "name": "sails-hook-mail",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "The simple elegant way to send emails from a Sails application",
   "main": "lib/sails-hook-mail.js",
   "scripts": {
