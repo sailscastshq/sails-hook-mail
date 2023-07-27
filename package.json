@@ -6,7 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["sails", "sendgrid", "smtp", "sails hook", "nodemailer"],
+  "keywords": [
+    "sails",
+    "sendgrid",
+    "smtp",
+    "sails hook",
+    "nodemailer"
+  ],
   "author": "Kelvin Omereshone<kelvin@sailscasts.com>",
   "bugs": {
     "url": "https://github.com/sailscastshq/sails-hook-mail/issues"
@@ -15,5 +21,8 @@
   "sails": {
     "isHook": true,
     "hookName": "mail"
+  },
+  "dependencies": {
+    "@sailshq/lodash": "^3.10.4"
   }
 }
