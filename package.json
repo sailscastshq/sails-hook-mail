@@ -1,0 +1,19 @@
+{
+  "name": "sails-hook-mail",
+  "version": "1.0.0",
+  "description": "The simple elegant way to send emails from a Sails application",
+  "main": "lib/sails-hook-mail.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["sails", "sendgrid", "smtp", "sails hook", "nodemailer"],
+  "author": "Kelvin Omereshone<kelvin@sailscasts.com>",
+  "bugs": {
+    "url": "https://github.com/sailscastshq/sails-hook-mail/issues"
+  },
+  "license": "MIT",
+  "sails": {
+    "isHook": true,
+    "hookName": "mail"
+  }
+}
