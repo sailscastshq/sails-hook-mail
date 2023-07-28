@@ -1,4 +1,4 @@
-# sails-hook-mail
+# Mail
 
 The simple elegant way to send emails from a Sails application
 
@@ -71,7 +71,6 @@ Then in your `config/local.js` you can provide the SMTP credentials like so:
 // config/local.js
 smtp: {
   host: 'HOST',
-  encryption: 'tls',
   username: 'USERNAME',
   password: 'PASSWORD'
 }
