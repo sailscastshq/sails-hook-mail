@@ -35,6 +35,6 @@ const expandedPgInfoBySlug = reduceLibraryContents(LIBRARY_CONTENTS)
 /**
  * accessible/dry
  *
- * @type {Dictionary}
+ * @type {Object}
  */
 module.exports = expandedPgInfoBySlug
