@@ -75,3 +75,17 @@ smtp: {
   password: 'PASSWORD'
 }
 ```
+
+## Email Partners
+
+A big thank you to all our partners for their contributions and efforts in making Sails Mail development possible!
+
+<div style="display: flex; gap: 30px;">
+  <a href="https://mailtrap.io?utm_source=sails-hook-mail">
+    <img src=".github/partners/mailtrap.png" alt="Mailtrap" style="max-width: 50%;">
+  </a>
+</div>
+
+## Become an Email Partner
+
+Interested in becoming an Email Partner of Sails Mail? Email Kelvin at [koo@hey.com](mailto:koo@hey.com?subject=Become%20Sails%20Mail%20Partner) with the subject "Become Sails Mail Partner".
