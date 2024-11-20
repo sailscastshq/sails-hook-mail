@@ -51,27 +51,23 @@ module.exports.mail = {
 }
 ```
 
-## log
+## Supported transports
 
-To use the `log` mailer, set the `default` property of `config/mail.js` to `log` and make sure you have a `log` mailer under the `mailers` object.
+- [Log](https://docs.sailscasts.com/mail/local-development#log-transport)
+- [SMTP](https://docs.sailscasts.com/mail/smtp-transport)
+- [Mailtrap](https://docs.sailscasts.com/mail/mailtrap-transport)
+- [Resend](https://docs.sailscasts.com/mail/resend-transport)
 
-Sails will log your email to the console
+## Email Partners
 
-## SMTP
+A big thank you to all our partners for their contributions and efforts in making Sails Mail development possible.
 
-To use SMTP as a mailer set it as the `default` in `config/mail.js` and also install the peer dependency `nodemailer`:
+<div style="display: flex; gap: 30px;">
+  <a href="https://mailtrap.io?utm_source=sails-hook-mail">
+    <img src=".github/partners/mailtrap.png" alt="Mailtrap" style="max-width: 50%;">
+  </a>
+</div>
 
-```sh
-npm i nodemailer --save
-```
+## Become an Email Partner
 
-Then in your `config/local.js` you can provide the SMTP credentials like so:
-
-```js
-// config/local.js
-smtp: {
-  host: 'HOST',
-  username: 'USERNAME',
-  password: 'PASSWORD'
-}
-```
+Interested in becoming an Email Partner of Sails Mail? Email Kelvin at [koo@hey.com](mailto:koo@hey.com?subject=Become%20Sails%20Mail%20Partner) with the subject "Become Sails Mail Partner".
