@@ -60,7 +60,7 @@ module.exports.mail = {
 
 ## Email Partners
 
-A big thank you to all our partners for their contributions and efforts in making Sails Mail development possible!
+A big thank you to all our partners for their contributions and efforts in making Sails Mail development possible.
 
 <div style="display: flex; gap: 30px;">
   <a href="https://mailtrap.io?utm_source=sails-hook-mail">
