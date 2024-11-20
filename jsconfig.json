@@ -6,8 +6,8 @@
     "lib": ["es2016"],
     // silences wrong TS error, we don't compile, we only typecheck
     "outDir": "./irrelevant/unused",
-    "allowJs": true,
-    "checkJs": true,
+    // "allowJs": true,
+    // "checkJs": true,
     "noImplicitThis": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
