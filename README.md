@@ -51,30 +51,12 @@ module.exports.mail = {
 }
 ```
 
-## log
+## Supported transports
 
-To use the `log` mailer, set the `default` property of `config/mail.js` to `log` and make sure you have a `log` mailer under the `mailers` object.
-
-Sails will log your email to the console
-
-## SMTP
-
-To use SMTP as a mailer set it as the `default` in `config/mail.js` and also install the peer dependency `nodemailer`:
-
-```sh
-npm i nodemailer --save
-```
-
-Then in your `config/local.js` you can provide the SMTP credentials like so:
-
-```js
-// config/local.js
-smtp: {
-  host: 'HOST',
-  username: 'USERNAME',
-  password: 'PASSWORD'
-}
-```
+- [Log](https://docs.sailscasts.com/mail/local-development#log-transport)
+- [SMTP](https://docs.sailscasts.com/mail/smtp-transport)
+- [Mailtrap](https://docs.sailscasts.com/mail/mailtrap-transport)
+- [Resend](https://docs.sailscasts.com/mail/resend-transport)
 
 ## Email Partners
 
