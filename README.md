@@ -15,7 +15,7 @@ In your Sails action you can use the `send` helper like so:
 ```js
 await sails.helpers.mail.send.with({
   subject: 'Verify your email',
-  template: 'email-verify-account',
+  template: 'verify-account',
   to: user.email,
   templateData: {
     token: user.emailProofToken,
@@ -23,6 +23,10 @@ await sails.helpers.mail.send.with({
   }
 })
 ```
+
+Template names are relative to `views/emails/`, so `template: 'verify-account'`
+maps to `views/emails/verify-account.ejs`. Existing templates and callers that
+still use names like `email-verify-account` continue to work too.
 
 ## Mailers
 
